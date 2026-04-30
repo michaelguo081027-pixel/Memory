@@ -24,6 +24,22 @@ void draw(){
   noFill();
   rect(995, 465, 30, 10);
   line(995, 465, 975, 460);
+  strokeWeight(4);
+  point(200, 470);
+  point(1010, 470);
+  point(430, 290);
+  point(470, 290);
+  point(730, 290);
+  point(770, 290);
+  strokeWeight(2);
+  arc(197, 492, 25, 25, 0, PI, OPEN);
+  line(207, 494, 186, 494);
+  arc(1005, 492, 25, 25, 0, PI, OPEN);
+  line(1015, 494, 995, 494);
+  arc(455, 315, 25, 25, 0, PI, OPEN);
+  line(445, 317, 465, 317);
+  arc(745, 315, 25, 25, 0, PI, OPEN);
+  line(735, 317, 755, 317);
   //table
   fill(160, 82, 45);
   ellipse(600, 875, 1000, 800);
@@ -39,6 +55,7 @@ void draw(){
   ellipse(425, 575, 100, 75);
   ellipse(775, 575, 100, 75);
   //food
+  //  pizza
   strokeWeight(5);
   fill(50);
   circle(750, 750, 200);
@@ -49,12 +66,15 @@ void draw(){
   arc(750, 750, 175, 175, 0, TWO_PI-QUARTER_PI, PIE);
   stroke(0);
   strokeWeight(2);
+  //  cake
   fill(245, 255, 250);
   ellipse(450, 850, 250, 75);
   rect(325, 750, 250, 100);
   ellipse(450, 750, 250, 75);
+  strokeWeight(6);
   stroke(255);
   line(325, 850, 575, 850);
+  strokeWeight(2);
   stroke(0);
   //gift
 }
